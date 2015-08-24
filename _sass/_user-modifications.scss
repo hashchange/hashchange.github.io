@@ -1,0 +1,94 @@
+h1 {
+    font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+    margin-top: 1em;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 1em;
+}
+
+h2 + h3 {
+    margin-top: 0;
+}
+
+h4 {
+    font-weight: bold;
+}
+
+h2, h3, h4, h5, h6 {
+    a {
+        &, &:link, &:hover, &:visited, &:active{
+            color: #222;
+        }
+    }
+}
+
+/**
+ * Header hover anchor links, like on Github.
+ *
+ * .fa-link styles taken from Font Awesome. See also http://ben.balter.com/2014/03/13/pages-anchor-links/
+ * (but modified here)
+ */
+@font-face {
+    font-family: 'FontAwesome';
+    src: url('../fonts/fontawesome-webfont.eot?v=4.4.0');
+    src: url('../fonts/fontawesome-webfont.eot?#iefix&v=4.4.0') format('embedded-opentype'), url('../fonts/fontawesome-webfont.woff2?v=4.4.0') format('woff2'), url('../fonts/fontawesome-webfont.woff?v=4.4.0') format('woff'), url('../fonts/fontawesome-webfont.ttf?v=4.4.0') format('truetype'), url('../fonts/fontawesome-webfont.svg?v=4.4.0#fontawesomeregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.fa-font {
+    font: normal normal normal 0.9em/1 FontAwesome;
+}
+
+.fa-icon {
+    display: inline-block;
+    margin-left: 0.25em;
+    margin-right: 0.25em;
+    color: $grey-color;
+
+    &.leading {
+        margin-left: 0;
+    }
+    
+    &.closer {
+        margin-right: 0;
+    }
+}
+
+.fa-link:before {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+    transform: rotate(-45deg);
+    content: "\f0c1";
+}
+
+.header-link {
+    position: absolute;
+    left: -1.5em;
+    opacity: 0;
+
+    -webkit-transition: opacity 0.2s ease-in-out 0.1s;
+    -moz-transition: opacity 0.2s ease-in-out 0.1s;
+    -ms-transition: opacity 0.2s ease-in-out 0.1s;
+}
+
+h2, h3, h4, h5, h6 {
+    position: relative;
+}
+
+h2:hover .header-link,
+h3:hover .header-link,
+h4:hover .header-link,
+h5:hover .header-link,
+h6:hover .header-link {
+    opacity: 1;
+}

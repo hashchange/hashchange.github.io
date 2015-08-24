@@ -1,0 +1,15 @@
+# Site settings
+title: Projects by @hashchange
+email: heim@zeilenwechsel.de
+contact: http://www.zeilenwechsel.de/general/contact.php
+owner: Michael Heim
+description: > # this means to ignore newlines until "baseurl:"
+  Hacking the front end: Backbone, Marionette, jQuery and the DOM.
+  An overview of open-source projects by @hashchange.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://www.zeilenwechsel.de/"
+twitter_username: hashchange
+github_username:  hashchange
+
+# Build settings
+markdown: kramdown

@@ -35,24 +35,57 @@ h2, h3, h4, h5, h6 {
         @include media-query($on-palm) {
             display: inline-block;
             float: left;
+            margin-top: $spacing-unit / 6;
         }
 
         // ATTN
-        // This is a quick hack. The size of 380px reflects the length of the current site title.
+        // This is a quick hack. The size of 360px reflects the length of the current site title.
         // It has to be adjusted as the title changes!
-        @include media-query(380px) {
+        @include media-query(360px) {
             margin-top: -( $spacing-unit / 2 );
         }
     }
 
     .site-nav {
         margin-left: $spacing-unit / 2;
+
+        .menu-icon {
+            &, &:link, &:hover, &:visited, &:active {
+                text-decoration: none;
+            }
+        }
+
         @include media-query($on-palm) {
             position: static;
             float: right;
             margin-top: $spacing-unit / 2;
             margin-bottom: $spacing-unit / 2;
+
+            .menu-icon .fa-font {
+                width: 18px;
+                height: 15px;
+
+                color: $grey-color-dark;
+            }
+
+            .nav-links {
+                clear: both;
+                padding-bottom: 5px;
+                display: none;
+
+                // ATTN Consistent text decoration required on mobile - must not change on hover!
+                //
+                // If the text decoration is changed from none to underline on hover, in involves a change in (text)
+                // node dimensions. In that case, mobile browsers honour the hover and require a second tap before they
+                // trigger a click.
+                //
+                // To make things work with a single click, do not allow an underline to appear on hover.
+                a, a:link, a:hover, a:visited, a:active {
+                    text-decoration: none;
+                }
+            }
         }
+
     }
 
 }

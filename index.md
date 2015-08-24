@@ -20,7 +20,7 @@ If you are interested in experimental stuff as well, please head over to my [reg
 Apart from [Github][github], you can get hold of me in a couple of other places, where I show up at random.
 
 | [<span class="fa-icon fa-font"></span>][twitter] | [Twitter][twitter] | [<span class="fa-icon fa-font"></span>][so] | [Stack Overflow][so] |
-| [<span class="fa-icon fa-font"></span>][google] | [Google+][google] | [<span class="fa-icon fa-font"></span>][zw] | [Zeilenwechsel.de][zw-contact] |
+| [<span class="fa-icon fa-font"></span>][google] | [Google+][google] | [<span class="fa-icon fa-font"></span>][zw] | [Zeilenwechsel.de][zw] |
 
 If you'd like to get in touch, please do. You are welcome.
 

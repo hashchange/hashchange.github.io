@@ -28,6 +28,35 @@ h2, h3, h4, h5, h6 {
     }
 }
 
+/* Fixing the hamburger icon */
+.site-header {
+
+    .site-title {
+        @include media-query($on-palm) {
+            display: inline-block;
+            float: left;
+        }
+
+        // ATTN
+        // This is a quick hack. The size of 380px reflects the length of the current site title.
+        // It has to be adjusted as the title changes!
+        @include media-query(380px) {
+            margin-top: -( $spacing-unit / 2 );
+        }
+    }
+
+    .site-nav {
+        margin-left: $spacing-unit / 2;
+        @include media-query($on-palm) {
+            position: static;
+            float: right;
+            margin-top: $spacing-unit / 2;
+            margin-bottom: $spacing-unit / 2;
+        }
+    }
+
+}
+
 /**
  * Header hover anchor links, like on Github.
  *

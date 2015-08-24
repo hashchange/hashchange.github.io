@@ -57,6 +57,23 @@ h2, h3, h4, h5, h6 {
 
 }
 
+// Table of contact options
+table {
+    margin-bottom: $spacing-unit / 2;
+}
+
+td {
+    padding-left: $spacing-unit / 4;
+
+    &:first-child {
+        padding-left: 0;
+    }
+
+    &:nth-of-type( even ) {
+        padding-left: 0;
+    }
+}
+
 /**
  * Header hover anchor links, like on Github.
  *
@@ -72,7 +89,13 @@ h2, h3, h4, h5, h6 {
 }
 
 .fa-font {
-    font: normal normal normal 0.9em/1 FontAwesome;
+    font: normal normal normal 1em/1 FontAwesome;
+
+    &.mobile-fixed-size {
+        @include media-query($on-palm) {
+            font-size: $base-font-size;
+        }
+    }
 }
 
 .fa-icon {
@@ -81,11 +104,12 @@ h2, h3, h4, h5, h6 {
     margin-right: 0.25em;
     color: $grey-color;
 
-    &.leading {
+    tr &:first-child {
         margin-left: 0;
     }
-    
-    &.closer {
+
+    &.narrow {
+        margin-left: 0;
         margin-right: 0;
     }
 }

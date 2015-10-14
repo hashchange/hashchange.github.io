@@ -180,7 +180,7 @@ Groups related jQuery Deferreds, managing them collectively.
 [jqds]: https://github.com/hashchange/jquery.documentsize "jQuery.documentSize – Github"
 [jqds-why]: https://github.com/hashchange/jquery.documentsize#what-does-it-do-that-jquery-doesnt "jQuery.documentSize: What does it do that jQuery doesn't?"
 [jqds-viewports]: http://www.quirksmode.org/mobile/viewports2.html "Quirksmode.org: A tale of two viewports"
-[jqds-jsbin]: http://jsbin.com/dujuyi/1 "jQuery.documentSize demo, using Zepto (AMD) – JSBin"
+[jqds-jsbin]: http://jsbin.com/dujuyi/2 "jQuery.documentSize demo, using Zepto (AMD) – JSBin"
 [jqds-codepen]: http://codepen.io/hashchange/full/xGomQQ "jQuery.documentSize demo, using Zepto (AMD) – Codepen"
 
 [jqiv]: https://github.com/hashchange/jquery.isinview "jQuery.isInView – Github"
@@ -189,13 +189,13 @@ Groups related jQuery Deferreds, managing them collectively.
 [jqiv-selector]: https://github.com/hashchange/jquery.isinview#inviewport-selector ":inViewport selector – jQuery.isInView"
 [jqiv-opts]: https://github.com/hashchange/jquery.isinview#options "Options – jQuery.isInView"
 [jqiv-example]: https://github.com/hashchange/jquery.isinview#usage-by-example-lazy-loading "Usage by example: Lazy loading – jQuery.isInView"
-[jqiv-jsbin]: http://jsbin.com/legice/4/edit?js,output "jQuery.isInView demo (AMD) – JSBin"
+[jqiv-jsbin]: http://jsbin.com/legice/6/edit?js,output "jQuery.isInView demo (AMD) – JSBin"
 [jqiv-codepen]: http://codepen.io/hashchange/pen/LVKqPK "jQuery.isInView demo (AMD) – Codepen"
 
 [jqscroll]: https://github.com/hashchange/jquery.scrollable "jQuery.scrollable – Github"
 [jqscroll-why]: https://github.com/hashchange/jquery.scrollable#why "jQuery.scrollable: Why?"
 [jqscroll-overlap]: https://github.com/hashchange/jquery.scrollable#starting-a-scroll-movement-while-another-one-is-still-in-progress "Starting a scroll movement while another one is still in progress – jQuery.scrollable"
-[jqscroll-jsbin]: http://jsbin.com/kurevu/1 "jQuery.scrollable demo (AMD) – JSBin"
+[jqscroll-jsbin]: http://jsbin.com/kurevu/2 "jQuery.scrollable demo (AMD) – JSBin"
 [jqscroll-codepen]: http://codepen.io/hashchange/full/KpjLMo "jQuery.scrollable demo (AMD) – Codepen"
 
 [jqpromises]: https://github.com/hashchange/jquery.promises "jQuery.Promises – Github"

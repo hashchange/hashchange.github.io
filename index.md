@@ -114,7 +114,7 @@ Tells you if elements are in view inside a scrollable container, or inside a con
 - Exposes useful helpers detecting the presence of scroll bars, and the space taken up by them.
 - Works with respect to the viewport, iframes, or other scrollable elements.
 
-[Project on Github, documentation][jqiv] \| [code example][jqiv-example] \| interactive demo ([JSBin][jqiv-jsbin], [Codepen][jqiv-codepen])
+[Project on Github, documentation][jqiv] \| [code example][jqiv-example] \| interactive demo ([JSBin][jqiv-jsbin], [Codepen][jqiv-codepen]) \| [performance test and comparison][jqiv-perf-jsbin]
 
 ### [jQuery.scrollable][jqscroll]
 
@@ -191,6 +191,7 @@ Groups related jQuery Deferreds, managing them collectively.
 [jqiv-example]: https://github.com/hashchange/jquery.isinview#usage-by-example-lazy-loading "Usage by example: Lazy loading – jQuery.isInView"
 [jqiv-jsbin]: http://jsbin.com/legice/6/edit?js,output "jQuery.isInView demo (AMD) – JSBin"
 [jqiv-codepen]: http://codepen.io/hashchange/pen/LVKqPK "jQuery.isInView demo (AMD) – Codepen"
+[jqiv-perf-jsbin]: http://jsbin.com/lisudi/3 "jQuery.isInView: Performance Test and Comparison (with isInViewport, jquery.visible, jquery_lazyload, hunt) - JS Bin"
 
 [jqscroll]: https://github.com/hashchange/jquery.scrollable "jQuery.scrollable – Github"
 [jqscroll-why]: https://github.com/hashchange/jquery.scrollable#why "jQuery.scrollable: Why?"

@@ -155,7 +155,7 @@ Groups related jQuery Deferreds, managing them collectively.
 
 [bbcy]: https://github.com/hashchange/backbone.cycle "Backbone.Cycle – Github"
 [bbcy-example]: https://github.com/hashchange/backbone.cycle#the-gist-of-it "Code example – Backbone.Cycle"
-[bbcy-jsbin]: http://jsbin.com/johoha/2/edit?js,output "Backbone.Cycle demo (AMD) – JSBin"
+[bbcy-jsbin]: http://jsbin.com/johoha/4/edit?js,output "Backbone.Cycle demo (AMD) – JSBin"
 [bbcy-codepen]: http://codepen.io/hashchange/pen/OVeovy "Backbone.Cycle demo (AMD) – Codepen"
 
 [bbdv]: https://github.com/hashchange/backbone.declarative.views "Backbone.Declarative.Views – Github"

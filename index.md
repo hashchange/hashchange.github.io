@@ -150,7 +150,7 @@ Groups related jQuery Deferreds, managing them collectively.
 
 [bbsel]: https://github.com/hashchange/backbone.select "Backbone.Select – Github"
 [bbsel-example]: https://github.com/hashchange/backbone.select#an-introductory-example "Code example – Backbone.Select"
-[bbsel-jsbin]: http://jsbin.com/xosepu/2/edit?js,output "Backbone.Select demo (AMD) – JSBin"
+[bbsel-jsbin]: http://jsbin.com/xosepu/4/edit?js,output "Backbone.Select demo (AMD) – JSBin"
 [bbsel-codepen]: http://codepen.io/hashchange/pen/yNdbgR "Backbone.Select demo (AMD) – Codepen"
 
 [bbcy]: https://github.com/hashchange/backbone.cycle "Backbone.Cycle – Github"

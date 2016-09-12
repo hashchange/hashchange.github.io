@@ -160,10 +160,14 @@ Groups related jQuery Deferreds, managing them collectively.
 
 [bbdv]: https://github.com/hashchange/backbone.declarative.views "Backbone.Declarative.Views – Github"
 [bbdv-example]: https://github.com/hashchange/backbone.declarative.views#core-functionality "Core functionality and examples – Backbone.Declarative.Views"
-[bbdv-jsbin-plain]: http://jsbin.com/laxequ/2/edit?html,js,output "Backbone.Declarative.Views demo, using plain Backbone (AMD) – JSBin"
+[bbdv-jsbin-plain]: http://jsbin.com/laxequ/4/edit?html,js,output "Backbone.Declarative.Views demo, using plain Backbone (AMD) – JSBin"
 [bbdv-codepen-plain]: http://codepen.io/hashchange/pen/gpNdKp "Backbone.Declarative.Views demo, using plain Backbone (AMD) – Codepen"
-[bbdv-jsbin-marionette]: http://jsbin.com/sopobo/3/edit?html,js,output "Backbone.Declarative.Views demo, using Marionette (AMD) – JSBin"
+[bbdv-jsbin-marionette]: http://jsbin.com/sopobo/5/edit?html,js,output "Backbone.Declarative.Views demo, using Marionette (AMD) – JSBin"
 [bbdv-codepen-marionette]: http://codepen.io/hashchange/pen/vOqzPY "Backbone.Declarative.Views demo, using Marionette (AMD) – Codepen"
+[bbdv-jsbin-plain-precompiled]: http://jsbin.com/veteho/1/edit?html,js,output "Backbone.Declarative.Views demo, using plain Backbone with precompiled templates (AMD) – JSBin"
+[bbdv-codepen-plain-precompiled]: http://codepen.io/hashchange/pen/qabWjv "Backbone.Declarative.Views demo, using plain Backbone with precompiled templates (AMD) – Codepen"
+[bbdv-jsbin-marionette]: http://jsbin.com/ribehu/1/edit?html,js,output "Backbone.Declarative.Views demo, using Marionette with precompiled templates (AMD) – JSBin"
+[bbdv-codepen-marionette]: http://codepen.io/hashchange/pen/BLjBmL "Backbone.Declarative.Views demo, using Marionette with precompiled templates (AMD) – Codepen"
 
 [bbdv-1]: https://github.com/hashchange/backbone.declarative.views#why-use-it "Backbone.Declarative.Views: Why use it?"
 [bbdv-2]: https://github.com/hashchange/backbone.declarative.views#define-an-el-with-data-attributes-in-the-html "Define an `el` in the HTML – Backbone.Declarative.Views"

@@ -176,7 +176,7 @@ Groups related jQuery Deferreds, managing them collectively.
 
 [bbme]: https://github.com/hashchange/backbone.marionette.export "Backbone.Marionette.Export – Github"
 [bbme-example]: https://github.com/hashchange/backbone.marionette.export#usage-and-examples "Code examples – Backbone.Marionette.Export"
-[bbme-jsbin]: http://jsbin.com/hoyome/6/edit?js,output "Backbone.Marionette.Export demo (AMD) – JSBin"
+[bbme-jsbin]: http://jsbin.com/hoyome/7/edit?js,output "Backbone.Marionette.Export demo (AMD) – JSBin"
 [bbme-codepen]: http://codepen.io/hashchange/pen/jPjvoG "Backbone.Marionette.Export demo (AMD) – Codepen"
 
 [mhlb]: https://github.com/hashchange/marionette.handlebars "Marionette.Handlebars – Github"

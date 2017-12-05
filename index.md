@@ -184,7 +184,7 @@ Groups related jQuery Deferreds, managing them collectively.
 [jqds]: https://github.com/hashchange/jquery.documentsize "jQuery.documentSize – Github"
 [jqds-why]: https://github.com/hashchange/jquery.documentsize#what-does-it-do-that-jquery-doesnt "jQuery.documentSize: What does it do that jQuery doesn't?"
 [jqds-viewports]: http://www.quirksmode.org/mobile/viewports2.html "Quirksmode.org: A tale of two viewports"
-[jqds-jsbin]: http://jsbin.com/dujuyi/2 "jQuery.documentSize demo, using Zepto (AMD) – JSBin"
+[jqds-jsbin]: http://jsbin.com/dujuyi/3 "jQuery.documentSize demo, using Zepto (AMD) – JSBin"
 [jqds-codepen]: http://codepen.io/hashchange/full/xGomQQ "jQuery.documentSize demo, using Zepto (AMD) – Codepen"
 
 [jqiv]: https://github.com/hashchange/jquery.isinview "jQuery.isInView – Github"
